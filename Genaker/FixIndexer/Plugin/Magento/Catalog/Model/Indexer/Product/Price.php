@@ -17,7 +17,7 @@ class Price
     ) {
     
         $hour = date('G'); // 0 .. 23
-	// Show run between 9am and 5pm
+	// Show run between 0am and 4am
 	if ($hour <= 4) {
 		$result = $proceed($ids);
         	return $result;
